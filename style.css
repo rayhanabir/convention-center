@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'poppins';
+}
+ul{
+    
+    padding: 0;
+}
+ul li{
+    list-style: none;
+    font-family: 'poppins';
+}
+
+/* end common css */
+
+
+#about__us{
+    margin-top: 100px;
+}
+.about__title{
+    font-weight: 700;
+}
+#about__us img{
+    width: 100%;
+}
+#weeding__plus{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    height: auto;
+    margin-top: -30px;
+}
+.package__card ~ h2, h4{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
