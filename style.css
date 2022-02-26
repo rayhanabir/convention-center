@@ -11,8 +11,7 @@ body{
 h1, h2, h3, h4, h5, h6, p{
     font-family: 'poppins';
 }
-ul{
-    
+ul{    
     padding: 0;
 }
 ul li{
@@ -39,8 +38,11 @@ ul li{
     color: white;
     height: auto;
     margin-top: -30px;
+    
+};
+.package_card > h2{
+    letter-spacing: 5px;
+    font-weight: 600;
+    background: salmon ;
 }
-.package__card ~ h2, h4{
-    font-weight: 700;
-    letter-spacing: 2px;
-}
+
